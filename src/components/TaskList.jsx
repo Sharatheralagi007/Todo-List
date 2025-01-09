@@ -10,13 +10,15 @@ function TaskList({ tasks, updateTask, deleteTask }) {
         <li key={index} className={task.completed ? "completed" : ""}>
           <div>
             <span>{task.text}</span>
-            <small>({task.priority}, {task.category})</small>
+            <small>
+              ({task.priority}, {task.category})
+            </small>
           </div>
           <div>
             <button onClick={() => toggleComplete(index)}>
               {task.completed ? "Undo" : "Complete"}
             </button>
-            <button onClick={() => deleteTask(index)}>Delete</button> 
+            <button onClick={() => deleteTask(index)}>Delete</button>
           </div>
         </li>
       ))}
