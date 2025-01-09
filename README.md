@@ -14,14 +14,17 @@ TaskBuddy is a ReactJS-based task management application that helps users effici
 ## 🔧 How It Works
 
 1. **Add Tasks**:
+
    - Enter a task in the input field and click the "Add Task" button.
    - The task is added to the list and stored in local storage.
 
 2. **Mark as Complete**:
+
    - Click the "Complete" button to mark a task as completed.
    - Completed tasks are visually distinguished.
 
 3. **Delete Tasks**:
+
    - Use the "Delete" button to remove a specific task from the list.
 
 4. **Clear All Tasks**:
@@ -36,6 +39,11 @@ TaskBuddy is a ReactJS-based task management application that helps users effici
 
 ## 🚀 How to Run the Project
 
+-- \*\*Install all Dependencies and run using "npm start" command
+
+<img width="1231" alt="Screenshot 2025-01-06 at 12 35 45 PM" src="./public/todolist_snapshot.png" />
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/taskbuddy-app.git
+   ```
